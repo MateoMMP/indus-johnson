@@ -27,7 +27,7 @@ default_jobs = {
 }
 df = pd.DataFrame(default_jobs)
 
-edited_df = st.experimental_data_editor(
+edited_df = st.data_editor(
     df,
     num_rows="dynamic",
     use_container_width=True,
